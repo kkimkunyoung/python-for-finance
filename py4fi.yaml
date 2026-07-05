@@ -1,0 +1,25 @@
+name: py4fi
+channels:
+  - defaults
+dependencies:
+  - python
+  - matplotlib
+  - ipython
+  - numpy
+  - pandas
+  - pytables
+  - scipy
+  - notebook
+  - scikit-learn
+  - openpyxl
+  - pyyaml
+  - jupyter
+  - anywidget
+  - numba
+  - cython
+  - sympy
+  - pip
+  - pip:
+      - plotly
+      - cufflinks
+      - colorlover
