@@ -2,22 +2,27 @@ name: py4fi
 channels:
   - defaults
 dependencies:
-  - python
-  - matplotlib
-  - ipython
-  - numpy
-  - pandas
-  - pytables
-  - scipy
-  - notebook
   - scikit-learn
-  - openpyxl
-  - pyyaml
-  - jupyter
   - anywidget
+  - pyyaml
+  - scipy
+  - openpyxl
+  - matplotlib
+  - jupyter
   - numba
-  - cython
+  - numpy
   - sympy
+  - pytables
+  - ipython
+  - pandas
+  - python=3.13.14
+  - notebook
+  - cython
+  - statsmodels
+  - pymc
+  - arviz[version='>=1.2.0']
+  - arviz-plots[version='>=1.2.0']
+  - tensorflow
   - pip
   - pip:
       - plotly
